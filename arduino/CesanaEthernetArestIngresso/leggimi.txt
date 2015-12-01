@@ -1,0 +1,26 @@
+http://xx/cancello
+{"return_value": 2, "id": "001", "name": "ingresso", "connected": true}
+
+http://xx/portoncino
+{"return_value": 1, "id": "001", "name": "ingresso", "connected": true}
+
+
+xx.no-ip.org
+{"variables": {"LM35sensor": 61, "LM35sensor_su_scheda": 61}, "id": "001", "name": "ingresso", "connected": true}
+
+
+documentazione varia:
+dice di mettere i pin 4 e 10 ad output e high da tentare
+http://forum.arduino.cc/index.php?topic=274755.0
+
+ritardo di almeno 50 millisecondi per permettere ala scheda w5100  di avviarsi
+http://www.freetronics.com.au/pages/usb-power-and-reset#.VUtpN_ntlHw
+
+
+http://fabrizio.zellini.org/come-ritardare-uno-switch
+
+https://github.com/combs/Arduino-Watchdog-Handler
+
+http://fabrizio.zellini.org/come-ritardare-uno-switch
+
+https://github.com/combs/Arduino-Watchdog-Handler
